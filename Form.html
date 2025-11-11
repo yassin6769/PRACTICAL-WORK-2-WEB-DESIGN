@@ -56,16 +56,16 @@
 		    	    <option value = "spm">SPM</option>
 		        </select><br>
 		        <label>Tel/Mobile :</label>
-		        <input type = "tel" onblur="" id = "tel" placeholder="01X-XXX-XXXX"><br>
+		        <input type = "tel" onblur="ChangeColor(this)" id = "tel" placeholder="01X-XXX-XXXX"><br>
 		</div>
 		<div class = "container p-5 my-5 bg-light text-black">
 		    <h2 class ="text-center">Address</h2>
 		    <label>State :</label>
-		    <input type = "text" id = "state"><br>
+		    <input type = "text" onblur="ChangeColor(this)" id = "state"><br>
 		    <label>City :</label>
-		    <input type = "text" id = "city"><br>
+		    <input type = "text" onblur="ChangeColor(this)" id = "city"><br>
 		    <label>Postcode :</label>
-		    <input type = "number" id = "postcode"><br>
+		    <input type = "number" onblur="ChangeColor(this)" id = "postcode"><br>
 		    <button type = "submit" class="btn btn-success">Register</button>
 		    <button type = "reset" class="btn btn-danger">Reset</button>
 		</div>
